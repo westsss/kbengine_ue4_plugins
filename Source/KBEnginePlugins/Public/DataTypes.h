@@ -4,6 +4,7 @@
 
 #include "KBECommon.h"
 #include "KBVar.h"
+#include "Bundle.h"
 
 class MemoryStream;
 

@@ -344,7 +344,7 @@ protected:
 	void setPropertyValue_(FVector2D* out, KBVar* val) { *out = (*val); }
 	void setPropertyValue_(FVector4* out, KBVar* val) { *out = (*val); }
 	void setPropertyValue_(ByteArray* out, KBVar* val) { *out = val->GetValue<ByteArray>(); }
-	void setPropertyValue_(KBVar::KBVarMap* out, KBVar* val) { *out = (*val); }
+	void setPropertyValue_(KBVar::KBVarMap* out, KBVar* val) { out->Add(*val); }
 	void setPropertyValue_(KBVar::KBVarArray* out, KBVar* val) { *out = val->GetValue<KBVar::KBVarArray>(); }
 	void setPropertyValue_(KBVar* out, KBVar* val) { *out = (*val); }
 };

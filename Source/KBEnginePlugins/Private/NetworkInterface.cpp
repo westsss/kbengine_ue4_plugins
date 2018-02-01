@@ -5,6 +5,7 @@
 #include "MemoryStream.h"
 #include "KBEvent.h"
 #include "KBDebug.h"
+#include "Interfaces.h"
 
 NetworkInterface::NetworkInterface():
 	socket_(NULL),

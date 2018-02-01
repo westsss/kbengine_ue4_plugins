@@ -7,6 +7,7 @@
 #include "Bundle.h"
 #include "Engine.h"
 #include "KBDebug.h"
+#include "Entity.h"
 
 // Sets default values for this component's properties
 UKBEMain::UKBEMain(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)

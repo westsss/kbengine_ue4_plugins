@@ -13,6 +13,9 @@
 #include "EntityCall.h"
 #include "Regex.h"
 #include "KBDebug.h"
+#include "EntityDef.h"
+#include "Message.h"
+#include "KBEvent.h"
 
 TMap<uint16, FKServerErr> KBEngineApp::serverErrs_;
 

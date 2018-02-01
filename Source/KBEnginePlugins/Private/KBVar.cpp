@@ -1,6 +1,9 @@
 
 #include "KBVar.h"
 #include "KBDebug.h"
+#include "LogMacros.h"
+
+DEFINE_LOG_CATEGORY_STATIC(LogKBEngine, Log, All);
 
 void KBVar::ErrorLog(const FString& errstr) const
 {

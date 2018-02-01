@@ -2,6 +2,7 @@
 #include "PacketSender.h"
 #include "MemoryStream.h"
 #include "KBDebug.h"
+#include "NetworkInterface.h"
 
 PacketSender::PacketSender(NetworkInterface* pNetworkInterface) :
 	pNetworkInterface_(pNetworkInterface)

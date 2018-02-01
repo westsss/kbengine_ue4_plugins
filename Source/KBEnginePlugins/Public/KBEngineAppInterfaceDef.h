@@ -4,7 +4,8 @@
 
 #include "KBECommon.h"
 #include "NetworkInterfaceDef.h"
-
+#include "Message.h"
+#include "MemoryStream.h"
 
 NETWORK_INTERFACE_DECLARE_BEGIN(KBEngineApp)
 	NETWORK_MESSAGE_HANDLER_STREAM(Client_onHelloCB,									NETWORK_VARIABLE_MESSAGE)

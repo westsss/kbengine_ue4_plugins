@@ -1,6 +1,7 @@
 
 #include "Message.h"
 #include "KBDebug.h"
+#include "KBEngineAppInterfaceDef.h"
 
 Message::Message() :
 	id(0),

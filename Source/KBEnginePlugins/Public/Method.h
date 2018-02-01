@@ -3,6 +3,7 @@
 #pragma once
 #include "KBVar.h"
 #include "KBECommon.h"
+#include "Entity.h"
 
 class KBEDATATYPE_BASE;
 

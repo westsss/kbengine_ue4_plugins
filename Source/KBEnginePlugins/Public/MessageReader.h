@@ -3,7 +3,7 @@
 #pragma once
 
 #include "KBECommon.h"
-
+#include "MemoryStream.h"
 
 /*
 	消息阅读模块

@@ -3,6 +3,7 @@
 #pragma once
 
 #include "KBECommon.h"
+#include "MemoryStream.h"
 
 class NetworkInterface;
 class MessageReader;

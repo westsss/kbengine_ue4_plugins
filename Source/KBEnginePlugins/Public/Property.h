@@ -3,6 +3,8 @@
 #pragma once
 #include "KBVar.h"
 #include "KBECommon.h"
+#include "DataTypes.h"
+#include "Entity.h"
 
 /*
 	抽象出一个entitydef中定义的属性

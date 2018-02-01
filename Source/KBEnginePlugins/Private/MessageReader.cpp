@@ -1,6 +1,7 @@
 
 #include "MessageReader.h"
 #include "KBDebug.h"
+#include "Message.h"
 
 MessageReader::MessageReader():
 	msgid_(0),
