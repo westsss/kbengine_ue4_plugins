@@ -7,7 +7,7 @@
 #include "GameFramework/Actor.h"
 #include "KBECommon.generated.h"
 
-DECLARE_LOG_CATEGORY_EXTERN(LogKBEngine, Log, All);
+DEFINE_LOG_CATEGORY_STATIC(LogKBEngine, Log, All);
 
 #define KBE_ASSERT check
 

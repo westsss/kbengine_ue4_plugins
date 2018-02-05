@@ -3,8 +3,6 @@
 #include "KBECommon.h"
 #include "KBDebug.h"
 
-DEFINE_LOG_CATEGORY(LogKBEngine);
-
 double getTimeSeconds()
 {
 	return FPlatformTime::Seconds();
